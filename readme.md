@@ -50,7 +50,7 @@ sudo apt install openssl -y
 
 Now, we'll do changes in Nginx:
 ```
-sudo vi /etc/nginx/sites-available/default
+sudo vim /etc/nginx/sites-available/default
 ```
 
 Now, press `i` key.
