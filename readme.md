@@ -4,6 +4,10 @@
 
 Now, open terminal by pressing `Ctrl + Alt + T `
 
+```
+sudo apt update
+```
+
 #### Install NGINX and php
 
 ```
