@@ -73,8 +73,6 @@ server {
         root /var/www/html;
         index index.php index.html decrypt.php;
 
-        add_header X-symmetric-key "simar"
-
         location / {
                  proxy_set_header X-symmetric-key "simar";
                  try_files $uri $uri/ /decrypt.php?$query_string;
@@ -100,9 +98,7 @@ server {
 After that press `ESC` key, and write ` :wq!`.
 
 Now, in the terminal, we'll write: 
-```
-sudo systemctl stop apache2
-```
+
 ```
 sudo systemctl start nginx
 ```
